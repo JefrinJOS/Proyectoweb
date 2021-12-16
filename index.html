@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<!-- Sitio Web UNAH-->
+<html>
+    <head>
+        <title>Sitio Web UNAH</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Sitio Web de Ejemplo de Maquetación">
+        <meta name="author" content="Jefrin Jose Orellana Sanchez">
+        <meta name="keywords" content="html,css">
+        <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+            *{
+                margin-top: 0px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 3px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .logo{
+                display:flex;
+                flex-direction: row;
+            }
+
+            .logo div{
+                width:100%;
+                opacity:0.9;
+                margin:10px;
+                text-align:center;
+                font-size: 30px;
+            }
+
+            .logo div img{
+                max-width: 30%;
+                height: auto;
+
+               
+            }
+            
+            .logo2{
+                display:flex;
+                flex-direction: row;
+
+            
+            }
+
+            .logo2 div{
+                width:80%;
+                opacity:0.9;
+                margin:10px;
+                text-align:right;
+                font-size: 50px;
+            }
+
+
+            .logo2 div img{
+                max-width: 45%;
+                height: auto;
+
+                margin-top: -2022px;
+                margin-left: 2px;
+                margin-right: 895px;
+                margin-bottom: 5px;
+            }
+
+
+             
+            .logo3{
+                display:flex;
+                flex-direction: row;
+
+            
+            }
+
+            .logo3 div{
+                width:80%;
+                opacity:0.9;
+                margin:10px;
+                text-align:right;
+                font-size: 50px;
+            }
+
+
+            .logo3 div img{
+                max-width: 52.5%;
+                height: auto;
+
+                margin-top: -2222px;
+                margin-left: 2px;
+                margin-right: -315px;
+                margin-bottom: 85px;
+            }
+            h4{
+                margin-left: 180px;
+                font-size: 40px;
+            
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .menu{
+                display: flex;
+                flex-direction: row;
+                position: sticky;
+                top: 0px;
+            }
+
+            .menu div{
+                width: 100%;
+                opacity: 0.9;
+                text-align: center;
+                font-size: 30px;
+                border-radius: 8px;
+                padding: 5px;
+                color:white;
+                background-color: rgb(10, 250, 150);
+                line-height: 70px;
+                position: sticky;
+                top: 0px;
+            }
+
+            .menu div a{
+                color: rgb(241, 52, 4);
+                font-size: 25px;
+                text-decoration: none;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 10px;
+                padding-right: 20px;
+            }
+
+            .menu div a:hover{
+                background-color: rgb(211, 193, 193);
+                font-size: 28px;
+                color: white;
+            }
+
+            .banner{
+                display: flex;
+                flex-direction: row;
+              
+                
+            }
+
+            .banner div{
+                background-color: rgb(119, 119, 119);
+                width: 100%;
+                border-radius: 8px;
+                
+                
+            }
+
+            .banner div img{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: 5px;
+                margin-right: 5px;
+                max-width: 99%;
+                height: auto;
+                border-radius: 10%;
+                
+            }
+
+            .banner div img:hover{
+                
+                box-shadow: 0 0 2px 4px white;
+                
+            
+            }
+
+            .informacioncorp{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .informacioncorp div{
+                width: 100%;
+                background-color: dodgerblue;
+                color: white;
+                
+                border-radius: 8px;
+            }
+
+            .informacioncorp div p{
+                margin: 10px;
+                font-size: 25px;
+                text-align: justify;
+            }
+
+            .vision{
+                display: flex;
+                flex-direction: row;
+                background-color: dodgerblue;
+                border-radius: 8px;
+                flex-wrap: wrap;
+            }
+
+            .vision div{
+                background-color: dodgerblue;
+                width: 100%;
+                border: 1px solid white;
+                line-height: 70px;
+                border-radius: 8px;
+                flex: 1 200px;
+            }
+
+            .vision div p{
+                font-size: 25px;
+                color: white;
+                text-align: justify;
+                line-height: 30px;
+            }
+
+            .vision div h2{
+                color: yellow;
+                text-align: center;
+            }
+
+            .plan{
+                display: flex;
+                flex-direction: row;
+                background-color: dodgerblue;
+                border-radius: 8px;
+                flex-wrap: wrap;
+            }
+
+            .plan div{
+                background-color: dodgerblue;
+                width: 100%;
+                border: 1px solid white;
+                line-height: 70px;
+                border-radius: 8px;
+                flex: 1 200px;
+            }
+
+            .plan div p{
+                font-size: 25px;
+                color: white;
+                text-align: justify;
+                line-height: 30px;
+            }
+
+            .plan div h2{
+                color: yellow;
+                text-align: center;
+            }
+
+            .galeriadefoto{
+                display: flex;
+                flex-direction: row;
+                background-color: dodgerblue;
+                border-radius: 8px;
+            }
+
+            .galeriadefoto div{
+                margin-left: 8px;
+                margin-top: 15px;
+                margin-right: 15px;
+                width: 100%;
+            }
+
+            .galeriadefoto div img{
+                max-width: 98%;
+                height: auto;
+                border: 1px solid white;
+                border-radius: 8px;
+            }
+
+            .galeriadefoto div img:hover{
+                box-shadow: 0 0 2px 4px white;
+            }
+
+            .contactenos{
+                display: flex;
+                flex-direction: row;
+                border:1px solid white;
+            }
+
+            .contactenos div{
+                width: 100%;
+                background-color: dodgerblue;
+                color: white;
+                border-radius: 8px;
+                border: 1px solid white;
+                padding-left: 5px;
+                padding-right: 15px;
+                padding-top: 4px;
+                text-align: center;
+                line-height: 70px;
+            }
+
+            .contactenos div frame{
+        
+                border:3px solid white
+            }
+            .piedepagina{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .piedepagina div{
+                width: 100%;
+                background-color: rgb(7, 52, 253);
+                color: white;
+                border-radius: 8px;
+                border: 1px solid white;
+                line-height: 70px;
+            }
+
+            .piedepagina div p{
+                margin: 10px;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            h2{
+                margin-left: 5px;
+            }
+           
+
+        </style>
+    </head>
+    <body>
+              <div class="logo">
+            <div>
+                <img src="https://www.unam.mx/sites/all/themes/unam/apple_icon.png">
+            </div>
+        </div>
+
+        <div class="logo2">
+            <div>
+                <img src="https://www.dgcs.unam.mx/boletin/bdboletin/multimedia/WAV210423/366(8).jpg">
+            </div>
+        </div>
+        <div class="logo3">
+            <div>
+                <img src="https://i0.wp.com/unitedkingdom.unam.mx/wp-content/uploads/2021/02/what-is-unam-uk-que-es-reino-unido.jpg?resize=840%2C450&ssl=1">
+            </div>
+        </div>
+
+        <h4>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h4>
+
+        <div class="menu">
+            <div>
+                <a href="index.html">INICIO</a>
+                <a href="inform_corporativa.html">INFORMACIÓN CORPORATIVA</a>
+                <a href="plan_de_estudio.html">PLAN DE ESTUDIO</a>
+                <a href="galeria_de_imagenes.html">GALERÍA DE IMÁGENES</a>
+                <a href="contactenos.html">CONTÁCTENOS</a>
+            </div>
+        </div>
+        <div class="banner">
+            <div>
+                <img src="https://www.unam.mx/sites/default/files/images/carrusel/declaratoriaportal2ok.jpg">
+            
+            </div>
+            
+        </div>
+
+        <a name="informacion"></a>
+        <h2>QUE ES LA UNAM?</h2>
+        <div class="informacion">
+            <div>
+                <p>
+                La Universidad Nacional Autónoma de México (UNAM)
+                 es una universidad pública mexicana.
+                Destaca como una de las mejores universidades
+                 de América Latina y de las más activas en materia artística, 
+                tecnológica y de investigación.  Mantiene una tasa de aceptación
+                muy selectiva de los aspirantes al nivel superior; debido a una
+                alta demanda y a su carácter público, laico y gratuito. 
+               Por otro lado, tiene la mayor matrícula estudiantil de
+               todas las universidades de América Latina, y cuenta con uno de
+               los campus más grandes del mundo.  Sus numerosas publicaciones
+               e investigaciones en todas las áreas del conocimiento la convierte
+               en la institución mexicana con mayor producción científica. 
+               Todos los mexicanos laureados con el Premio Nobel han pasado 
+              por esta casa de estudios. 
+            Fue fundada en 1910 como Universidad Nacional de México por proyecto de
+             Justo Sierra,  quien deseaba revivir una versión liberal de la difunta Real
+              y Pontificia Universidad de México;  la más antigua de Norteamérica.
+               La UNAM obtuvo su autonomía en 1929. Esto le otorga la capacidad de autogestionar 
+               su presupuesto, administración y currícula sin interferencia gubernamental.
+                La construcción de su principal campus al sur de la Ciudad de México, conocido 
+                como Ciudad Universitaria (CU), fue llevada a cabo por algunos de los arquitectos
+                 y artistas mexicanos más destacados del siglo XX.  En 2007 fue declarado Patrimonio
+                  de la Humanidad por la UNESCO.  Además, se considera uno de los campus más
+                   atractivos al turismo en todo el mundo. En 2009 la universidad fue premiada con el
+                    Premio Príncipe de Asturias de Comunicación y Humanidades.
+
+                </p>
+            </div>
+        </div>
+
+        <section>
+            <article style="text-align: center;">
+                <iframe width="677" height="381" src="https://www.youtube.com/embed/frAVZjT2YdY"
+                 title="YouTube video player" frameborder="0" allow="accelerometer;
+                  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+            </article>
+
+        <div class="piedepagina">
+            <div>
+                <p>
+                    COPYRIGHT 2021, DISEÑADO POR JEFRIN SANCHEZ
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
